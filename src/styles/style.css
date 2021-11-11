@@ -1,5 +1,6 @@
 body {
   background-color: lightgoldenrodyellow;
+  color: rgb(181, 196, 100);
   text-align: center;
 }
 
@@ -10,12 +11,13 @@ h1 {
 
 .cat {
   display: block;
-  height: 500px;
-  width: 490px;
+  height: 450px;
+  width: 400px;
   margin: 0 auto;
   border-radius: 50%;
   transition-duration: 1s;
   transition-property: transform;
+  cursor: pointer;
 }
 
 .cat:hover {
