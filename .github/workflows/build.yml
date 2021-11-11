@@ -6,6 +6,12 @@ jobs:
   deploy-to-gh-pages:
     runs-on: ubuntu-20.04
     steps:
+      - name: Install Packages
+        run: |
+          npm install
+      - name: Build
+        run: |
+          npm run build
       - name: Checkout
         uses: actions/checkout@v2
       - name: Deploy
